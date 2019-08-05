@@ -39,8 +39,7 @@ class UsersController < ApplicationController
 
 
 
-	def create
-
+	def create		
 		@user = User.new(user_params)
 		@user.referrer_id = session[:referrer_id] if session[:referrer_id].present?
 		@user.ip_address = request.ip
@@ -52,7 +51,7 @@ class UsersController < ApplicationController
 	        end
 	    else
 			respond_to do |format|
-	            format.html {redirect_to root_path, alert: "Subscribing multiple emails is not allowed."}
+	            format.html {redirect_to root_path, alert: "Subscribing multiple emails is not allowed from the same IP address."}
 	        end
 	    end
 	end

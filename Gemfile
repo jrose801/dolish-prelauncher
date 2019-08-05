@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.6.3'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-gem 'rails', '4.2.1'
+gem 'rails', '>= 5.0.0.rc2', '< 5.1'
 # Use PostgreSQL as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,7 +31,7 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'unicorn'
-gem 'rack-timeout'
+gem 'rack-timeout', require:"rack/timeout/base"
 
 gem 'delayed_job_active_record'
 
