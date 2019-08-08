@@ -1,12 +1,17 @@
 %section#main{style: "background-image: url(#{asset_url(Setting.cover_image.url)});"}
 	.cover 
-		%h1.cover-title Prelauncher
-		%h3.cover-subtitle Start your prelaunch referral campaign to gather thousands of emails before you even launch your e-commerce website.
+		%h1.cover-title Dolish is Coming!
+		%h3.cover-subtitle Respecting your taste buds and wallet...Ahhh yeah.
+		/ %img.incentive(src="assets/teaser-win-lifetime-subscription-top.png")
+		.special Be the first to know!
 		#form-wrapper
 			= render "form"
-			%small * We promise no spam, cause we hate spam
+		%img.incentive(src="assets/teaser-win-lifetime-subscription-bottom.png")
+		%small We only deal in dough, not spam...we promise.
+		%img.logo(src="assets/logo.png")
 		%footer
 			%p
-				Powered by 
-				%a{href: "http://prelauncher.io"} Prelauncher.io
+				/ jrose
+				/ Powered by 
+				/ %a{href: "http://prelauncher.io"} Prelauncher.io
 

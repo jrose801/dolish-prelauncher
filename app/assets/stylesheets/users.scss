@@ -8,46 +8,99 @@
 	background-repeat: no-repeat;
 	top: 0px;
 	width: 100%;
-	display: table;
+  display: table;
+  /* jrose */
+  background-position-x: 46.6%;
 }
 
 .cover{
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	/* jrose text-align: center; */
 	vertical-align: middle;
 	display: table-cell;
-	background-color: rgba(0, 0, 0, 0.4);
+  /* jrose background-color: rgba(0, 0, 0, 0.4); */
+  /* jrose start */
+  background-color: rgba(0, 0, 0, 0.03);
+  /* jrose end */
 }
 
+/* jrose start */
+.logo {
+width: 25%;
+max-width: 230px;
+margin: 60px 60px 60px;
+}
+/* jrose end */
+
 .cover-title{
-	font-size: 50px;
-	color: #FFF;
-	font-weight: 400;
-	font-family: sans-serif;
-	width: auto;
+  /* jrose hide
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 400;
+  width: auto;
 	text-align: center;
-	margin: 0px auto;
-	text-transform: uppercase;
+  margin: 0px auto;
+  text-transform: uppercase; */
+  
+  /* jrose add */
+  color: #3E1784;
+  font-size: 76px;
+  font-weight: 900;
+	font-family: "montserrat", sans-serif;
+  padding: 30px;
+  width: 35%;
+  margin: 30px 30px 0 30px;
+  line-height: 1;
 }
 
 .cover-subtitle{
-	font-size: 20px;
+  /* jrose font-size: 20px; */
+	/* jrose max-width: 600px; */
+	/* jrose text-align: center; */
+  /* jrose margin: 50px auto; */
+  /* jrose line-height: 1.2; */
+  /* jrose start */
+  font-family: "montserrat", sans-serif;
+  text-transform: none;
+  font-size: 20px;
 	color: #FFF;
-	font-weight: 400;
-	max-width: 600px;
-	text-align: center;
-	margin: 50px auto;
-	text-transform: none;
-  line-height: 1.2;
+	font-weight: 600;
+  line-height: 1.45;
+  margin: -5px 0 60px 30px;
+  padding: 0px 30px;
+  max-width: 470px;
+  /* jrose  end*/
+}
+/* jrose start */
+.incentive {
+  max-width: 342px;
+  margin: 0px 60px 5px;
 }
 
+.special {
+  color: #3E1784;;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 5px 0;
+  margin: 0 60px;
+}
+
+#form-wrapper {
+  margin: 0 60px;
+  height: 52px;
+}
+/* jrose end */
+
 #new_user {
-	width: auto;
-	margin: 10px auto;
+  width: auto;
+  /* jrose margin: 10px auto; */
 	padding: 0px;
 	display: inline-block;
-	border: medium none;
+  border: medium none;
+  /* jrose start */
+  margin: 5px auto 10px;
 }
 
 #new_user .form-group{
@@ -57,7 +110,9 @@
 #new_user .form-control{
 	height: 45px;
 	border-radius: 0px;
-	font-size: 18px;
+  /* jrose hide font-size: 18px;
+  */
+  font-size: 16px;
 	width: 100%;
 	float: left;
 	display: inline-block;	
@@ -66,14 +121,22 @@
 #new_user .btn {
     height: 45px;
     border-radius: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    width: 100%;
+    /* jrose hide
+    font-size: 20px;
     background-color: #4EC9ED;
+    padding: 12px;
+    */
+
+    /* jrose add */
     color: #FFF;
+    font-weight: 600;
+    width: auto;
+    font-size: 16px;
     float: left;
     display: inline-block;
-    margin-left: -5px;
+    padding: 12px 19px 12px 20px;
+    background-color: #F5645E;   
+    /* jrose end */
 }
 
 .cover small{
@@ -81,9 +144,13 @@
 	color: #FFF;
 	font-weight: 400;
 	text-transform: none;
-	text-align: center;
-	margin: 0px auto;
-	display: block;	
+	/* jrose text-align: center; */
+	/* margin: 0px auto; */
+  display: block;
+  /* jrose start */
+  /* padding-left: 80px;
+  /* jrose end */
+  margin: 0px 60px;
 }
 
 #refer{
@@ -181,7 +248,7 @@
 
 .ico-twitter:hover{
 	 color: #00A9ED;
-	 pacity: 0.8;
+	 opacity: 0.8;
 }
 
 .ico-pinterest{
@@ -208,7 +275,7 @@
 
 .ico-mail:hover{
 	color: #25A3DC;
-	pacity: 0.8;
+	opacity: 0.8;
 }
 
 aside h4{
@@ -222,7 +289,8 @@ aside h4{
 
 .cover footer {
   position: absolute;
-  width: 100%;
+  /* jrose width: 100%; */
+  width: 0;
   bottom: 0px;
   color: white;  
 }
@@ -286,6 +354,38 @@ aside h4{
     line-height: 30px;
   }
 
+  /* jrose start */
+  #main  {
+    background-position-x: 26.5%;
+  }
+
+  .logo {
+  max-width: 260px;
+  margin: 0px 40px 20px;
+  } 
+
+  .cover-title {
+  padding: 0px 40px;
+  }
+
+  .cover-subtitle {
+    padding: 0px 40px;
+  }
+
+  .incentive {
+    margin: 0px 40px;
+  }
+
+  .cover small {
+    margin: 20px 40px;
+  }
+
+  #form-wrapper {
+    margin: 0px 40px;
+  }
+
+  /* jrose end */
+
 
 }
 
@@ -327,6 +427,17 @@ aside h4{
     line-height: 28px;
   }
 
+  /* jrose start */
+  #main  {
+    background-position-x: 56.5%;
+  }
+
+  .cover-subtitle {
+    font-size: 27px;
+    line-height: 1.3;
+  }
+  /* jrose end */
+
 
   #refer p{
     line-height: 1.15;
@@ -361,6 +472,11 @@ aside h4{
     margin: 15px auto 20px;
   }
 
+  /* jrose start */
+  #new_user {
+    margin: 5px auto 0;
+  }
+  /* jrose end */
 
 }
 
@@ -373,21 +489,50 @@ aside h4{
     font-size: 5vw;
   }
 
-    #new_user {
-  }
-
     #new_user input {
     font-size: 20px;
   }
 
     #new_user .user_email {
     margin-right: -4px;
-    
   }
 
     #new_user .submit {
     min-width: 80px;
   }
+
+/* jrose start */
+#main  {
+  background-position-x: 47.5%;
+}
+
+.logo {
+max-width: 260px;
+margin: 40px 24px 20px;
+} 
+
+.cover-title {
+padding: 0px 24px;
+}
+
+.cover-subtitle {
+  padding: 0px 24px;
+  width: 70%;
+}
+
+.incentive {
+  margin: 0px 24px;
+  width: 84%;
+}
+
+.cover small {
+  margin: 20px 24px;
+}
+
+#form-wrapper {
+  margin: 0px 24px;
+}
+/* jrose end */
 
 }
 
@@ -444,6 +589,12 @@ aside h4{
     padding: 0px 10px;
   }
 
+  /* jrose start */
+  .logo {
+    max-width: 210px;
+  } 
+  /* jrose end */
+
 }
 
 
@@ -469,17 +620,29 @@ aside h4{
     font-size: 14px;
   }
 
+  /* jrose start */
+  #new_user {
+    max-width: 294px;
+  }
+  .cover {
+  background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  #main  {
+    background-position-x: 50.5%;
+  }
+  /* jrose end */
+
 }
 
 
 
 @media screen and (max-width: 320px){
-    #new_user input {
-      font-size: 16px !important;
+  #new_user input {
+    font-size: 16px !important;
   }
-
     #new_user .user_email {
-   width: 55%;
+   width: 51%;
   }
 
     #new_user .submit {
@@ -490,6 +653,65 @@ aside h4{
       font-size: 25px;
   }
 
+  /* jrose start */
+  #main  {
+    background-position-x: 48%;
+  }
+
+  .cover-title {
+    margin: 28px 10px 5px;
+    padding: 10px;
+    font-size: 45px;
+    width: 75%;
+    color: #fff;
+  }
+  .cover-subtitle {
+  margin: 0px 0px 25px 0px;
+  width: 80%;
+  }
+
+  .logo {
+    width: 50%;
+    max-width: 200px;
+    margin: 30px 0px 35px 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    width: 85%;
+  }
+
+  .incentive {
+    margin: 48px 24px 0;
+  }
+
+  .special {
+    margin: 0 24px;
+    color: #fff;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #new_user {
+    margin: 0px;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
 
 }
 
@@ -516,15 +738,36 @@ aside h4{
   }
 
     .cover-title {
-  	font-size: 30px;
+    font-size: 30px;
+    /* jrose start */
+    padding-left: 8px;
+    padding-right: 16px;
+    margin: 8px;
+    /* jrose end */
   }
   
   .cover-subtitle {
     font-size: 16px;
+    /* jrose start */
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.4;
+    /* jrose end */
   }
 
     #new_user input {
       width: 100% !important;
       font-size: 18px !important;
+  }
+  /* jrose start */
+  .incentive {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #form-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
