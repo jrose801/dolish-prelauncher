@@ -597,41 +597,248 @@ padding: 0px 24px;
 
 }
 
-
-@media screen and (max-width: 360px){
-
-  #refer h1 {
-    font-size: 27px;
+@media screen and (max-width: 414px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+    #new_user .user_email {
+   width: 51%;
   }
 
-    .cover-heading {
-    font-size: 25px;
-  }
-  
     #new_user .submit {
-      min-width: 60px;
+    width: 45%;
   }
 
-  #refer p {
-    font-size: 15px;
-  }
-
-  #refer figcaption p {
-    font-size: 14px;
+  .contact-socials i.fa {
+      font-size: 25px;
   }
 
   /* jrose start */
-  #new_user {
-    max-width: 294px;
-  }
-  .cover {
-  background-color: rgba(0, 0, 0, 0.1);
+  #main  {
+    background-position-x: 48%;
   }
 
-  #main  {
-    background-position-x: 50.5%;
+  .cover-title {
+    margin: 0px 10px 5px;
+    padding: 10px;
+    font-size: 55px;
+    width: 75%;
+    /* color: #fff; */
+    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 50px rgba(253, 187, 35, 1.0);
   }
-  /* jrose end */
+  .cover-subtitle {
+    margin: 0px 0px 25px 0px;
+    font-size: 20px;
+    width: 80%;
+    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 50px rgba(253, 187, 35, 1.0);
+  }
+
+  .logo {
+    width: 50%;
+    max-width: 200px;
+    margin: 30px 0px 35px 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    width: 90%;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
+    font-size: 18px;
+  }
+
+  .incentive {
+    margin: 48px 24px 0;
+  }
+
+  .special {
+    margin: 0 24px;
+    /* color: #fff; */
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 51px rgba(253, 187, 35, 1.0);
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #new_user {
+    margin: 0px;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
+
+}
+
+@media screen and (max-width: 375px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+    #new_user .user_email {
+   width: 51%;
+  }
+
+    #new_user .submit {
+    width: 45%;
+  }
+
+  .contact-socials i.fa {
+      font-size: 25px;
+  }
+
+  /* jrose start */
+  #main  {
+    background-position-x:48%;
+  }
+
+  .cover-title {
+    margin: 28px 10px 5px;
+    padding: 10px;
+    font-size: 48px;
+    width: 75%;
+    /* color: #fff; */
+  }
+  .cover-subtitle {
+    margin: 0px 0px 25px 0px;
+    width: 82%;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .logo {
+    width: 45%;
+    max-width: 200px;
+    margin: 30px 0px 35px 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    width: 93%;
+    font-size: 15px;
+  }
+
+  .incentive {
+    margin: 48px 24px 0;
+  }
+
+  .special {
+    margin: 0 24px;
+    color: #fff;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #new_user {
+    margin: 0px;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
+
+}
+
+@media screen and (max-width: 360px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+    #new_user .user_email {
+   width: 51%;
+  }
+
+    #new_user .submit {
+    width: 45%;
+  }
+
+  .contact-socials i.fa {
+      font-size: 25px;
+  }
+
+  /* jrose start */
+  #main  {
+    background-position-x: 48.5%;
+  }
+
+  .cover-title {
+    margin: 28px 10px 5px;
+    padding: 10px;
+    font-size: 45px;
+    width: 75%;
+    /* color: #fff; */
+  }
+  .cover-subtitle {
+  margin: 0px 0px 25px 0px;
+  width: 80%;
+  }
+
+  .logo {
+    width: 50%;
+    max-width: 200px;
+    margin: 30px 0px 35px 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    width: 85%;
+  }
+
+  .incentive {
+    margin: 48px 24px 0;
+  }
+
+  .special {
+    margin: 0 24px;
+    color: #fff;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #new_user {
+    margin: 0px;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
 
 }
 
@@ -663,7 +870,7 @@ padding: 0px 24px;
     padding: 10px;
     font-size: 45px;
     width: 75%;
-    color: #fff;
+    /* color: #fff; */
   }
   .cover-subtitle {
   margin: 0px 0px 25px 0px;
@@ -671,14 +878,15 @@ padding: 0px 24px;
   }
 
   .logo {
-    width: 50%;
+    width: 46%;
     max-width: 200px;
-    margin: 30px 0px 35px 20px;
+    margin: 26px 0px 35px 20px;
   }
 
   .cover small {
     margin: 0 24px;
     width: 85%;
+    text-shadow: 0px 0px 8px #B98100;
   }
 
   .incentive {
