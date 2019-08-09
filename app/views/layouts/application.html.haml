@@ -7,6 +7,8 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = render "layouts/meta"
 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
     :css
       #prizes .prize {width: #{100.fdiv(Prize.all.count)}%;}
       @media screen and (max-width: 767px){#prizes .prize {width: 100%;}}
