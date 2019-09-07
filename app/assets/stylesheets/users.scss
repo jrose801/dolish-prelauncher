@@ -79,10 +79,9 @@ margin: 60px 60px 60px;
 }
 
 .special {
-  color: #3E1784;;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 14px;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 21px;
   padding: 5px 0;
   margin: 0 60px;
 }
@@ -112,7 +111,7 @@ margin: 60px 60px 60px;
 	border-radius: 0px;
   /* jrose hide font-size: 18px;
   */
-  font-size: 16px;
+  font-size: 15px;
 	width: 100%;
 	float: left;
 	display: inline-block;	
@@ -131,11 +130,11 @@ margin: 60px 60px 60px;
     color: #FFF;
     font-weight: 600;
     width: auto;
-    font-size: 16px;
+    font-size: 15px !important;
     float: left;
     display: inline-block;
     padding: 12px 19px 12px 20px;
-    background-color: #F5645E;   
+    background-color: #424242;   
     /* jrose end */
 }
 
@@ -162,30 +161,49 @@ margin: 60px 60px 60px;
 	top: 0px;
 	width: 100%;
 	display: table;
-	padding-top: 50px;
-	margin-bottom: 50px;
-	background-size: cover;
-	border-bottom: medium none;	
+  border-bottom: medium none;
+  /* jrose hide
+  margin-bottom: 50px;
+  padding-top: 50px;
+  */
+  /* jrose add */
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px){
+  #copy {
+    margin-top: 80px;
+  }
 }
 
 #copy h3{
-	font-size: 18px;
+  font-size: 18px;
 	color: #FFF;
 	font-weight: 400;
 	margin: 30px auto 0px 50px;
-	text-align: left;
-	width: auto;
-	text-transform: uppercase;
+  width: auto;
+  /* jrose hide
+  text-transform: uppercase;
+  text-align: left;
+  */
+  /* jrose add */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 #copy h1 {
-	font-size: 25px;
-	color: #1ABC9C;
+  font-size: 25px;
+  width: auto;
+  margin: 5px auto 25px 50px;
+  /* jrose hide
+  color: #1ABC9C;
+  text-transform: uppercase;
+  text-align: left; 
+  */
+  /* jrose add */
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 	font-weight: 800;
-	margin: 5px auto 25px 50px;
-	text-align: left;
-	width: auto;
-	text-transform: uppercase;	
+  text-align: center;
 }
 
 #refer input {
@@ -199,18 +217,28 @@ margin: 60px 60px 60px;
 }
 
 #refer p{
-    font-size: 16px;
     color: #FFF;
     font-weight: 400;
     margin: 0px auto 0px 50px;
-    text-align: left;
     width: auto;
     text-transform: none;
+    /* jrose hide
+    font-size: 16px;
+    text-align: left;
+    */
+    /* jrose add */
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 #social-sharing {
     text-align: center;
+    /* jrose hide 
     margin-top: 30px;
+    */
+    /* jrose add */
+    margin: 15px 0 0 50px;
 }
 
 .contact-socials {
@@ -222,7 +250,9 @@ margin: 60px 60px 60px;
     float: left;
     transition: all 250ms ease-in-out 0s;
     text-align: center;
+    /* jrose hide
     border-right: 1px solid white;
+    /
 }
 
 .contact-socials li:last-child{
@@ -230,7 +260,11 @@ margin: 60px 60px 60px;
 }
 
 .ico-facebook {
+    /* jrose hide 
     color: #3B5998;
+    */
+    /* jrose add */
+    color: #495057;
 }
 
 .ico-facebook:hover{
@@ -243,7 +277,11 @@ margin: 60px 60px 60px;
 }
 
 .ico-twitter {
+  /* jrose hide
     color: #00A9ED;
+  */
+  /* jrose add */
+  color: #495057;
 }
 
 .ico-twitter:hover{
@@ -252,7 +290,11 @@ margin: 60px 60px 60px;
 }
 
 .ico-pinterest{
-    color: #bd081c;
+  /* jrose hide
+  color: #bd081c;
+  */
+  /* jrose add */
+  color: #495057;
 }
 
 .ico-pinterest:hover, .ico-pinterest:focus{
@@ -270,7 +312,11 @@ margin: 60px 60px 60px;
 }
 
 .ico-mail {
+  /* jrose hide
     color: #25A3DC;
+  */
+  /* jrose add */
+  color: #495057;
 }
 
 .ico-mail:hover{
@@ -298,6 +344,11 @@ aside h4{
 .cover footer a {
   color: white;
   font-weight: 600;
+}
+#refer {
+  background-size: 205%;
+  background-position-x: 80%;
+  background-position-y: 50%;
 }
 
 @media screen and (max-width: 980px){
@@ -335,9 +386,6 @@ aside h4{
 
 @media screen and (max-width: 850px){
   
-
-
-
   #refer input {
     height: 30px;
     font-size: 18px;
@@ -464,20 +512,53 @@ aside h4{
   }
 
   #refer p {
+    /* jrose hide 
     font-size: 17px;
+    */
+    font-size: 15px;
+    /* line-height: 1.35px; */
+  }
+
+  #social-sharing {
+    margin-left: 0px;
   }
 
   #refer h1 {
     font-size: 30px;
+    /* jrose hide 
     margin: 15px auto 20px;
+    */
+    /* jrose add */
+    margin: 5px auto 13px;
   }
 
   /* jrose start */
   #new_user {
     margin: 5px auto 0;
   }
-  /* jrose end */
 
+  #refer {
+  background-size: 560%;
+  background-position-x: center;
+  background-position-y: 16%;
+  }
+  /* jrose end */
+}
+
+@media screen and (max-width: 670px){
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: 21%;
+  }
+}
+
+@media screen and (max-width: 656px){
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: 11%;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -532,8 +613,21 @@ padding: 0px 24px;
 #form-wrapper {
   margin: 0px 24px;
 }
+
+#refer {
+  background-size: 500%;
+  background-position-x: center;
+  background-position-y: 8%;
+}
 /* jrose end */
 
+}
+@media screen and (max-width: 550px){
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: 3%;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -547,10 +641,17 @@ padding: 0px 24px;
   }
 
   #prizes{
-  	margin: 100px 20px;
+    /* jrose hide 
+    margin: 100px 20px;
+    */
+    /* jrose add */
+    margin: 40px 20px;
   }
-
-
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: 0%;
+  }
 
 }
 
@@ -616,27 +717,29 @@ padding: 0px 24px;
   /* jrose start */
   #main  {
     background-position-x: 48%;
+    background-size: 395%;
+    background-position-y: center;
   }
 
   .cover-title {
-    margin: 0px 10px 5px;
+    margin: 25px 10px 5px;
     padding: 10px;
     font-size: 55px;
     width: 75%;
-    /* color: #fff; */
-    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 50px rgba(253, 187, 35, 1.0);
+    color: #fff;
+    
   }
   .cover-subtitle {
     margin: 0px 0px 25px 0px;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 26px;
     width: 80%;
-    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 50px rgba(253, 187, 35, 1.0);
   }
 
   .logo {
     width: 50%;
     max-width: 200px;
-    margin: 30px 0px 35px 20px;
+    margin: 35px 0px 0px 20px;
   }
 
   .cover {
@@ -648,19 +751,20 @@ padding: 0px 24px;
     margin: 0 24px;
     width: 90%;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .incentive {
-    margin: 48px 24px 0;
+    margin: 50px 24px 12px 28px;
+    width: 52%;
   }
 
   .special {
-    margin: 0 24px;
-    /* color: #fff; */
-    font-size: 14px;
-    font-weight: 700;
-    text-shadow: 0px 0px 30px rgba(253, 187, 35, 1.0), 0px 0px 51px rgba(253, 187, 35, 1.0);
+    width: 50%;
+    margin: 0 0 7px 24px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 21px;
   }
 
   .form-group {
@@ -669,6 +773,7 @@ padding: 0px 24px;
 
   #new_user {
     margin: 0px;
+    width: 80%;
 
     .submit {
     width: 100%;
@@ -679,6 +784,10 @@ padding: 0px 24px;
     }
     .btn {
       width: 100%;
+      font-size: 15px;
+    }
+    .form-control {
+      text-align: center;
     }
   }
 
@@ -686,6 +795,20 @@ padding: 0px 24px;
     width: 0;  
   }
 
+  #refer {
+    background-size: 560%;
+    background-position-x: center;
+    padding-top: 0px;
+  }
+
+}
+
+@media screen and (max-width: 413px) {
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -20%;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -769,6 +892,14 @@ padding: 0px 24px;
 
 }
 
+@media screen and (max-width: 370px) {
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -35%;
+  }
+}
+
 @media screen and (max-width: 360px){
   #new_user input {
     font-size: 16px !important;
@@ -847,6 +978,20 @@ padding: 0px 24px;
 
 }
 
+@media screen and (max-width: 350px) {
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -60%;
+  }
+}
+@media screen and (max-width: 343px) {
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -66%;
+  }
+}
 
 
 @media screen and (max-width: 320px){
@@ -924,6 +1069,12 @@ padding: 0px 24px;
 
   .cover footer {
     width: 0;  
+  }
+
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -86%;
   }
 
 }
