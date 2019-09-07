@@ -11,6 +11,7 @@
   display: table;
   /* jrose */
   background-position-x: 46.6%;
+  background-position-y: center;
 }
 
 .cover{
@@ -44,13 +45,13 @@ margin: 60px 60px 60px;
   text-transform: uppercase; */
   
   /* jrose add */
-  color: #3E1784;
+  color: #fff;
   font-size: 76px;
   font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
   padding: 30px;
-  width: 35%;
-  margin: 30px 30px 0 31px;
+  width: 50%;
+  margin: 30px 0px 0 31px;
   line-height: 1;
 }
 
@@ -67,20 +68,20 @@ margin: 60px 60px 60px;
 	color: #FFF;
 	font-weight: 600;
   line-height: 1.45;
-  margin: -5px 0 60px 30px;
+  margin: 0 0 50px 30px;
   padding: 0px 30px;
   max-width: 470px;
   /* jrose  end*/
 }
 /* jrose start */
 .incentive {
-  max-width: 342px;
-  margin: 0px 60px 5px;
+  max-width: 400px;
+  margin: 5px 60px 5px;
 }
 
 .special {
   color: #FFF;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 21px;
   padding: 5px 0;
   margin: 0 60px;
@@ -393,7 +394,6 @@ aside h4{
     line-height: 30px;
   }
 
-
   #refer figure{
     margin-top: 18px;
   }
@@ -408,28 +408,35 @@ aside h4{
   }
 
   .logo {
-  max-width: 260px;
-  margin: 0px 40px 20px;
+  max-width: 270px;
+  margin: 40px 30px;
+  padding: 0 30px;
+  width: 40%;
   } 
 
   .cover-title {
-  padding: 0px 40px;
+  padding: 30px;
+  width: 75%;
   }
 
   .cover-subtitle {
-    padding: 0px 40px;
+    padding: 0px 30px;
   }
 
   .incentive {
-    margin: 0px 40px;
+    margin: 5px 30px;
+    padding: 0 40px;
+    max-width: 360px;
   }
 
   .cover small {
-    margin: 20px 40px;
+    margin: 10px 30px;
+    padding: 0 30px;
   }
 
   #form-wrapper {
-    margin: 0px 40px;
+    margin: 0px 30px;
+    padding: 0 30px;
   }
 
   /* jrose end */
@@ -477,7 +484,7 @@ aside h4{
 
   /* jrose start */
   #main  {
-    background-position-x: 56.5%;
+    background-position-x: 45%;
   }
 
   .cover-subtitle {
@@ -658,8 +665,13 @@ padding: 0px 24px;
 
 
 @media screen and (max-width: 450px){
-     #new_user input {
-      font-size: 18px !important;
+  
+  #main {
+
+  }
+  
+    #new_user input {
+    font-size: 18px !important;
   }
 
     .cover-heading {
@@ -678,9 +690,10 @@ padding: 0px 24px;
     width: 45%;
   }
 
-  .cover-title {
+  /*.cover-title {
   	font-size: 36px;
   }
+  */
 
   .cover-subtitle {
     font-size: 18px;
