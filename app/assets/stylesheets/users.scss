@@ -22,7 +22,7 @@
 	display: table-cell;
   /* jrose background-color: rgba(0, 0, 0, 0.4); */
   /* jrose start */
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.00);
   /* jrose end */
 }
 
@@ -51,7 +51,7 @@ margin: 60px 60px 60px;
 	font-family: 'Montserrat', sans-serif;
   padding: 30px;
   width: 50%;
-  margin: 30px 0px 0 31px;
+  margin: 0px 0px 0 31px;
   line-height: 1;
 }
 
@@ -484,12 +484,13 @@ aside h4{
 
   /* jrose start */
   #main  {
-    background-position-x: 45%;
+    background-position-x: 40%;
   }
 
   .cover-subtitle {
-    font-size: 27px;
+    font-size: 24px;
     line-height: 1.3;
+    width: 55%;
   }
   /* jrose end */
 
@@ -498,9 +499,11 @@ aside h4{
     line-height: 1.15;
   }
 
+  /*
 }
 
 @media screen and (max-width: 767px){
+*/
 
   #reinforcement p{
     text-align: center;
@@ -639,78 +642,222 @@ padding: 0px 24px;
 
 @media screen and (max-width: 500px){
 
-    #new_user .user_email {
-    width: 60%;
-  }
-
-    #new_user .submit {
-    width: 40%;
-  }
-
-  #prizes{
-    /* jrose hide 
-    margin: 100px 20px;
-    */
-    /* jrose add */
-    margin: 40px 20px;
-  }
-  #refer {
-    background-size: 500%;
-    background-position-x: center;
-    background-position-y: 0%;
-  }
-
-}
-
-
-
-@media screen and (max-width: 450px){
-  
-  #main {
-
-  }
-  
     #new_user input {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
-
-    .cover-heading {
-    font-size: 30px;
-  }
-
-    #new_user {
-    width: 100%;
-  } 
-
     #new_user .user_email {
-    width: 55%;
+   width: 51%;
   }
 
     #new_user .submit {
     width: 45%;
   }
 
-  /*.cover-title {
-  	font-size: 36px;
-  }
-  */
-
-  .cover-subtitle {
-    font-size: 18px;
-  }
-
-  .contact-socials li {
-    padding: 0px 10px;
+  .contact-socials i.fa {
+      font-size: 25px;
   }
 
   /* jrose start */
-  .logo {
-    max-width: 210px;
-  } 
-  /* jrose end */
+  #main  {
+    background-position-x: 48%;
+    background-size: 395%;
+    background-position-y: center;
+  }
 
+  .cover-title {
+    margin: 0px 10px 5px;
+    padding: 10px;
+    font-size: 55px;
+    width: 75%;
+    color: #fff;
+    
+  }
+  .cover-subtitle {
+    margin: 0px 0px 25px 0px;
+    font-size: 18px;
+    line-height: 26px;
+    width: 75%;
+  }
+
+  .logo {
+    width: 50%;
+    max-width: 170px;
+    margin: 35px 0px 0px 20px;
+    padding: 0px;
+  }
+
+  .cover {
+    margin-top: 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    padding: 0px;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .incentive {
+    margin: 50px 24px 12px 28px;
+    width: 55%;
+    padding: 0px;
+  }
+
+  .special {
+    width: 50%;
+    margin: 0 0 7px 24px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #form-wrapper {
+    padding: 1px;
+  }
+
+  #new_user {
+    margin: 0px;
+    width: 80%;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+      font-size: 15px;
+    }
+    .form-control {
+      text-align: center;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
+  
+  #refer {
+    background-size: 560%;
+    background-position-x: center;
+    padding-top: 0px;
+  }
 }
 
+@media screen and (max-width: 453px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+    #new_user .user_email {
+   width: 51%;
+  }
+
+    #new_user .submit {
+    width: 45%;
+  }
+
+  .contact-socials i.fa {
+      font-size: 25px;
+  }
+
+  /* jrose start */
+  #main  {
+    background-position-x: 48%;
+    background-size: 395%;
+    background-position-y: center;
+  }
+
+  .cover-title {
+    margin: 0px 10px 5px;
+    padding: 10px;
+    font-size: 55px;
+    width: 75%;
+    color: #fff;
+    
+  }
+  .cover-subtitle {
+    margin: 0px 0px 25px 0px;
+    font-size: 18px;
+    line-height: 26px;
+    width: 75%;
+  }
+
+  .logo {
+    width: 50%;
+    max-width: 170px;
+    margin: 35px 0px 0px 20px;
+    padding: 0px;
+  }
+
+  .cover {
+    margin-top: 20px;
+  }
+
+  .cover small {
+    margin: 0 24px;
+    padding: 0px;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .incentive {
+    margin: 50px 24px 12px 28px;
+    width: 55%;
+    padding: 0px;
+  }
+
+  .special {
+    width: 50%;
+    margin: 0 0 7px 24px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  #form-wrapper {
+    padding: 1px;
+  }
+
+  #new_user {
+    margin: 0px;
+    width: 80%;
+
+    .submit {
+    width: 100%;
+    }
+    .user_email {
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    .btn {
+      width: 100%;
+      font-size: 15px;
+    }
+    .form-control {
+      text-align: center;
+    }
+  }
+
+  .cover footer {
+    width: 0;  
+  }
+  
+  #refer {
+    background-size: 560%;
+    background-position-x: center;
+    padding-top: 0px;
+  }
+}
 @media screen and (max-width: 414px){
   #new_user input {
     font-size: 16px !important;
@@ -765,7 +912,6 @@ padding: 0px 24px;
     margin: 0 24px;
     padding: 0px;
     width: 90%;
-    text-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
     font-size: 14px;
   }
 
@@ -863,7 +1009,7 @@ padding: 0px 24px;
     margin: 0px 0px 25px 0px;
     width: 82%;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 24px;
   }
 
   .logo {
@@ -873,9 +1019,9 @@ padding: 0px 24px;
   }
 
   .cover small {
-    margin: 0 24px;
+    margin: 10px 24px;
     width: 93%;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .incentive {
@@ -883,7 +1029,7 @@ padding: 0px 24px;
   }
 
   .special {
-    margin: 0 24px;
+    margin: 5px 24px;
     color: #fff;
   }
 
@@ -910,8 +1056,15 @@ padding: 0px 24px;
     width: 0;  
   }
 
+  #refer {
+    background-size: 500%;
+    background-position-x: center;
+    background-position-y: -35%;
+  }
+
 }
 
+/*
 @media screen and (max-width: 370px) {
   #refer {
     background-size: 500%;
@@ -919,6 +1072,7 @@ padding: 0px 24px;
     background-position-y: -35%;
   }
 }
+*/
 
 @media screen and (max-width: 360px){
   #new_user input {
@@ -955,12 +1109,12 @@ padding: 0px 24px;
 
   .logo {
     width: 50%;
-    max-width: 200px;
+    max-width: 170px;
     margin: 30px 0px 35px 20px;
   }
 
   .cover small {
-    margin: 0 24px;
+    margin: 10px 24px;
     width: 85%;
   }
 
@@ -969,7 +1123,7 @@ padding: 0px 24px;
   }
 
   .special {
-    margin: 0 24px;
+    margin: 5px 24px;
     color: #fff;
   }
 
@@ -1043,20 +1197,19 @@ padding: 0px 24px;
     /* color: #fff; */
   }
   .cover-subtitle {
-  margin: 0px 0px 25px 0px;
+  margin: 0px 0px 15px 0px;
   width: 80%;
   }
 
   .logo {
     width: 46%;
     max-width: 200px;
-    margin: 26px 0px 35px 20px;
+    margin: 20px 0px 0px 20px;
   }
 
   .cover small {
-    margin: 0 24px;
+    margin: 10px 24px;
     width: 85%;
-    text-shadow: 0px 0px 8px #B98100;
   }
 
   .incentive {
@@ -1064,7 +1217,7 @@ padding: 0px 24px;
   }
 
   .special {
-    margin: 0 24px;
+    margin: 5px 24px;
     color: #fff;
   }
 
