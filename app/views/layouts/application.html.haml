@@ -12,13 +12,12 @@
       @media screen and (max-width: 767px){#prizes .prize {width: 100%;}}
 
     <% if Rails.env.production? %>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120524618-3"></script>
-      <script>
+    / Global site tag (gtag.js) - Google Analytics
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-120524618-3"}
+      :javascript
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-      </script>
     <% end %>
 
   %body
