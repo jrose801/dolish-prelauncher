@@ -79,12 +79,18 @@ margin: 60px 60px 60px;
   margin: 5px 60px 5px;
 }
 
+.spec-ico {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px !important;
+}
 .special {
   color: #FFF;
   font-size: 17px;
   line-height: 21px;
-  padding: 5px 0;
   margin: 0 60px;
+  padding: 5px 0;
+  display: inline-block;
 }
 
 #form-wrapper {
@@ -159,7 +165,7 @@ margin: 60px 60px 60px;
 	/* ackground-size: cover; */
 	background-repeat: no-repeat;
   /*background-color: rgba(0, 0, 0, 0.4);*/
-  background-color: #a2a2a2;
+  background-color: #53a2fa;
 	top: 0px;
 	width: 100%;
 	display: table;
@@ -216,7 +222,7 @@ margin: 60px 60px 60px;
     border-radius: 0px;
     font-size: 14px;
     width: 85%;
-    margin: 10px 0px 25px 50px;
+    margin: 10px 0px 25px 65px;
     text-align: center;
     line-height: 30px;
 }
