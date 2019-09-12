@@ -14,7 +14,9 @@
 %aside.text-center
 	%h4
 		%strong= pluralize(@user.number_of_referrals, 'friend')
-		%span have joined so far. 
+		%span have joined so far.
+		
+	%h5 Keep checking back! 
 
 - if Prize.all.any?
 	%section#prizes
