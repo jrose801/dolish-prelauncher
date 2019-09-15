@@ -2,13 +2,15 @@
 	.col-md-5.col-md-offset-1.col-sm-6.hidden-xs.refer-left
 	.col-md-5.col-sm-6.col-xs-12
 		#copy
-			%h3 Don't leave your friends behind 
-			%h1 Invite your friends & score FREE dough
-
-		%input.form-control{value: "#{@user.referral_url(root_url)}"}
-		%p.show Share your unique link via text, email & social networks to score dough when your friends sign up.
-
+			%h3 Share with friends and family and 
+			%h1 Get FREE dough!
+		%p Click on one of the icons below or copy and send your unique link below to friends and earn FREE dough when they sign up.
+		
 		= render partial: "social_sharing"
+		
+		%input.form-control{:type => "text", :value => "#{@user.referral_url(root_url)}"}
+
+		
 
 
 %aside.text-center

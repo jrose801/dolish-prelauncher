@@ -182,14 +182,54 @@ margin: 60px 60px 60px;
 }
 @media screen and (min-width: 768px){
   #copy {
-    margin-top: 80px;
+    margin-top: 45px;
   }
 }
+
+/* Copy Input Field Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/* End Copy Input Field Tooltip */
 
 #copy h3{
   font-size: 18px;
 	color: #FFF;
-	font-weight: 400;
+	font-weight: 600;
 	margin: 30px auto 0px 50px;
   width: auto;
   /* jrose hide
@@ -202,9 +242,9 @@ margin: 60px 60px 60px;
 }
 
 #copy h1 {
-  font-size: 25px;
+  font-size: 50px;
   width: auto;
-  margin: 5px auto 25px 50px;
+  margin: 5px auto 15px 50px;
   /* jrose hide
   color: #1ABC9C;
   text-transform: uppercase;
@@ -220,9 +260,9 @@ margin: 60px 60px 60px;
 #refer input {
     height: 35px;
     border-radius: 0px;
-    font-size: 14px;
+    font-size: 15px;
     width: 85%;
-    margin: 10px 0px 25px 65px;
+    margin: 17px 0px 25px 65px;
     text-align: center;
     line-height: 30px;
 }
@@ -238,9 +278,10 @@ margin: 60px 60px 60px;
     text-align: left;
     */
     /* jrose add */
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    line-height: 1.3;
 }
 
 #social-sharing {
@@ -263,7 +304,7 @@ margin: 60px 60px 60px;
     text-align: center;
     /* jrose hide
     border-right: 1px solid white;
-    /
+    */
 }
 
 .contact-socials li:last-child{
@@ -275,12 +316,14 @@ margin: 60px 60px 60px;
     color: #3B5998;
     */
     /* jrose add */
-    color: #495057;
+    color: #fff;
 }
-
 .ico-facebook:hover{
-	color: #3B5998;
+	color: #fff;
 	opacity: 0.8;
+}
+.ico-facebook:visited {
+  color: #fff;
 }
 
 .contact-socials i.fa {
@@ -292,11 +335,11 @@ margin: 60px 60px 60px;
     color: #00A9ED;
   */
   /* jrose add */
-  color: #495057;
+  color: #fff;
 }
 
 .ico-twitter:hover{
-	 color: #00A9ED;
+	 color: #fff;
 	 opacity: 0.8;
 }
 
@@ -305,20 +348,20 @@ margin: 60px 60px 60px;
   color: #bd081c;
   */
   /* jrose add */
-  color: #495057;
+  color: #fff;
 }
 
 .ico-pinterest:hover, .ico-pinterest:focus{
-    color: #bd081c;
+    color: #bfff;
   opacity: 0.8;
 }
 
 .ico-gplus{
-    color: #d34836;
+    color: #fff;
 }
 
 .ico-gplus:hover, .ico-gplus:focus{
-    color:  #d34836;
+    color:  #fff;
     opacity:0.8
 }
 
@@ -327,11 +370,11 @@ margin: 60px 60px 60px;
     color: #25A3DC;
   */
   /* jrose add */
-  color: #495057;
+  color: #fff;
 }
 
 .ico-mail:hover{
-	color: #25A3DC;
+	color: #fff;
 	opacity: 0.8;
 }
 
@@ -376,7 +419,7 @@ aside h4{
 
     #refer input {
       height: 30px;
-      font-size: 19px;
+      font-size: 15px;
       margin-top: 10px;
       line-height: 30px;
     }
@@ -399,7 +442,7 @@ aside h4{
   
   #refer input {
     height: 30px;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 10px;
     line-height: 30px;
   }
@@ -470,7 +513,7 @@ aside h4{
 
   #refer input {
     height: 30px;
-    font-size: 18px;
+    font-size: 15px;
   margin-top: 12px;
   margin-bottom: 12px;
   line-height: 30px;
@@ -493,7 +536,7 @@ aside h4{
   #refer input {
     height: 28px;
     font-size: 17px;
-    margin-top: 5px;
+    margin-top: 15px;
     line-height: 28px;
   }
 
@@ -511,7 +554,7 @@ aside h4{
 
 
   #refer p{
-    line-height: 1.15;
+    line-height: 1.3;
   }
 
   #reinforcement p{
@@ -1340,7 +1383,7 @@ margin: 40px 24px 20px;
 @media screen and (max-width: 300px){
 
     .contact-socials li {
-      padding: 0 5px;
+      padding: 0 10px;
   }
 
   .contact-socials i.fa {
