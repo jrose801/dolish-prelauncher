@@ -244,10 +244,9 @@ margin: 60px 60px 60px;
 #copy h1 {
   font-size: 50px;
   width: auto;
-  margin: 5px auto 15px 50px;
+  margin: 5px auto 10px 50px;
   /* jrose hide
   color: #1ABC9C;
-  text-transform: uppercase;
   text-align: left; 
   */
   /* jrose add */
@@ -255,6 +254,18 @@ margin: 60px 60px 60px;
   color: #fff;
 	font-weight: 800;
   text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.share-text {
+  display: table-cell;
+  padding: 10px;
+  position: relative;
+  top: -7px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #refer input {
@@ -295,6 +306,10 @@ margin: 60px 60px 60px;
 
 .contact-socials {
     display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    padding-top: 8px;
 }
 
 .contact-socials li {
@@ -327,7 +342,7 @@ margin: 60px 60px 60px;
 }
 
 .contact-socials i.fa {
-    font-size: 30px
+    font-size: 35px
 }
 
 .ico-twitter {
@@ -778,6 +793,10 @@ margin: 40px 24px 20px;
 }
 
 @media screen and (max-width: 500px){
+
+  .share-text {
+    top: -3px;
+  }
 
     #new_user input {
     font-size: 16px !important;
