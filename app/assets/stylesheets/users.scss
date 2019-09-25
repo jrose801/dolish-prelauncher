@@ -94,6 +94,17 @@ margin: 60px 60px 60px;
   width: 45%;
 }
 
+.tiny {
+  color: #FFF;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 0 60px;
+  padding: 5px 0;
+  width: 45%;
+}
+
+
 #form-wrapper {
   margin: 0 60px;
   /* jrose height: 52px; */
@@ -764,6 +775,15 @@ margin: 40px 24px 20px;
     font-size: 15px;
     line-height: 21px;
   }
+  .tiny {
+    width: 70%;
+    margin: 10px 0 7px 20px;
+    padding: 0 0 0 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    font-style: italic;
+  }
 
   #form-wrapper {
     margin: 0 20px;
@@ -865,11 +885,20 @@ margin: 40px 24px 20px;
 
   .special {
     width: 50%;
-    margin: 0 0 7px 12px;
+    margin: 10px 0 7px 12px;
     padding: 0 0 0 12px;
     color: #fff;
     font-size: 15px;
     line-height: 21px;
+  }
+  .tiny {
+    width: 70%;
+    margin: 10px 0 7px 12px;
+    padding: 0 0 0 12px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    font-style: italic;
   }
 
   .form-group {
@@ -973,6 +1002,14 @@ margin: 40px 24px 20px;
     color: #fff;
     font-size: 15px;
     line-height: 21px;
+  }
+
+  .tiny {
+    width: 70%;
+    margin: 10px 0 7px 12px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
   }
 
   .form-group {
@@ -1086,6 +1123,14 @@ margin: 40px 24px 20px;
     line-height: 21px;
   }
 
+  .tiny {
+    width: 75%;
+    margin: 10px 0 7px 12px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
   .form-group {
     margin-bottom: 5px;
   }
@@ -1170,8 +1215,15 @@ margin: 40px 24px 20px;
 
   .cover small {
     margin: 10px 24px;
-    width: 93%;
+    width: 85%;
     font-size: 14px;
+  }
+
+  .tiny {
+    /* margin: 0 24px; */
+    width: 60%;
+    font-size: 11px;
+    font-style: 15px;
   }
 
   .incentive {
@@ -1369,6 +1421,10 @@ margin: 40px 24px 20px;
     padding: 0 12px;
     color: #fff;
     width: 55%;
+    .tiny {
+      font-size: 12px;
+      font-style: 15px;
+    }
   }
 
   .form-group {
